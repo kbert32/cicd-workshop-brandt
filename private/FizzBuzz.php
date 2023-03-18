@@ -7,7 +7,7 @@
             for ($i=$fromNum; $i <= $toNum; $i++) {
                 $fizzBuzzString = "$i";
 
-                if ($ix % 3 == 0 || $i % 5 == 0) {
+                if ($i % 3 == 0 || $i % 5 == 0) {
                     $fizzBuzzString .= " - ";
                 }
                 
